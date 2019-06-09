@@ -36,6 +36,18 @@
   revision = "cfb38830724cc34fedffe9a2a29fb54fa9169cd1"
   version = "v1.20.0"
 
+[[projects]]
+  digest = "1:2773e4e922e5af534775962ffef08770b8114e177590f7605886528d37417105"
+  name = "go.uber.org/dig"
+  packages = [
+    ".",
+    "internal/digreflect",
+    "internal/dot",
+  ]
+  pruneopts = "UT"
+  revision = "7ff117f761a3f1b3eb521945c17a1091438eb6de"
+  version = "v1.7.0"
+
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
@@ -43,6 +55,7 @@
     "github.com/jinzhu/gorm",
     "github.com/jinzhu/gorm/dialects/sqlite",
     "github.com/urfave/cli",
+    "go.uber.org/dig",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
