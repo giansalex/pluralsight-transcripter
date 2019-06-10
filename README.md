@@ -3,8 +3,11 @@
 Translate your offline videos to your preference language.
 
 # Use
-
-Download from [releases](https://github.com/giansalex/pluralsight-transcripter/releases) or build from [source code](https://github.com/giansalex/pluralsight-transcripter/blob/master/CONTRIBUTING.md).
+Install from [chocolatey.org](https://chocolatey.org/packages/pluralsight-transcripter/).
+```
+choco install pluralsight-transcripter
+```
+Also, you cand download from [releases](https://github.com/giansalex/pluralsight-transcripter/releases) or build from [source code](https://github.com/giansalex/pluralsight-transcripter/blob/master/CONTRIBUTING.md).
 
 > Required pluralsight sqlite path, you can search in `%appdata%\..\Local\Pluralsight` 
 
