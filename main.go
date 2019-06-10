@@ -17,7 +17,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "Pluralsight Transcript"
 	app.Usage = "Translate video to your preference language"
-	app.Version = "0.0.1"
+	app.Version = "1.0.0"
 
 	app.Flags = []cli.Flag{
 		cli.StringFlag{
