@@ -2,10 +2,12 @@ package service
 
 import "github.com/giansalex/pluralsight-transcript/model"
 
-type ApiService interface {
+// APIService represent pluralsight API
+type APIService interface {
 	GetByCourse(courseID string, lang string) (*model.CourseTranscript, error)
 }
 
+// TranscriptService service for transcript courses
 type TranscriptService interface {
 	Transcript(lang string) error
 }

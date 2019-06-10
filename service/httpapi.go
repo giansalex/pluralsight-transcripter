@@ -10,19 +10,22 @@ import (
 
 const transcriptPath = "%s/library/coursetranscripts/%s/%s"
 
-type HttpApiService struct {
+// HTTPAPIService implement ApiService
+type HTTPAPIService struct {
 	path  string
 	token string
 }
 
-func NewApi(path string, token string) *HttpApiService {
-	return &HttpApiService{
+// NewAPI create new instance of HTTPAPIService
+func NewAPI(path string, token string) *HTTPAPIService {
+	return &HTTPAPIService{
 		path:  path,
 		token: token,
 	}
 }
 
-func (api *HttpApiService) GetByCourse(courseID string, lang string) (*model.CourseTranscript, error) {
+// GetByCourse call to pluralsight api for get CourseTranscript
+func (api *HTTPAPIService) GetByCourse(courseID string, lang string) (*model.CourseTranscript, error) {
 	url := fmt.Sprintf(transcriptPath, api.path, courseID, lang)
 	json, err := api.getContent(url)
 	if err != nil {
@@ -37,7 +40,7 @@ func (api *HttpApiService) GetByCourse(courseID string, lang string) (*model.Cou
 	return course, nil
 }
 
-func (api *HttpApiService) getContent(url string) ([]byte, error) {
+func (api *HTTPAPIService) getContent(url string) ([]byte, error) {
 	req, err := http.NewRequest("GET", url, nil)
 
 	if err != nil {

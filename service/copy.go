@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+// CopyFile copy file src to dst
 func CopyFile(src string, dst string) (int64, error) {
 	sourceFileStat, err := os.Stat(src)
 	if err != nil {

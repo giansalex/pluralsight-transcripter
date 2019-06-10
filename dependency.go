@@ -26,8 +26,8 @@ func getCurrentUser(users repository.UserRepository) *model.User {
 	return users.GetUser()
 }
 
-func newAPI(user *model.User) service.ApiService {
-	return service.NewApi(apiURL, user.Jwt.String)
+func newAPI(user *model.User) service.APIService {
+	return service.NewAPI(apiURL, user.Jwt.String)
 }
 
 func useTranscriptService(transcript *service.DefaultTranscriptService) service.TranscriptService {
