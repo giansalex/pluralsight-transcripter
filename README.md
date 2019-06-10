@@ -9,6 +9,6 @@ Download from [releases](https://github.com/giansalex/pluralsight-transcripter/r
 > Required pluralsight sqlite path, you can search in `%appdata%\..\Local\Pluralsight` 
 
 ```
- ./transcript.exe --lang es pluralsight.db
+transcripter.exe --lang es pluralsight.db
 ```
 This generate `pluralsight.es.db`, then you can replace in original database
