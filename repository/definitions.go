@@ -7,6 +7,7 @@ type UserRepository interface {
 }
 
 type TranscriptRepository interface {
+	ClearAll()
 	Save(course *model.CourseTranscript)
 }
 

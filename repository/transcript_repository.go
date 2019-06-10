@@ -17,8 +17,11 @@ func NewTranscriptRepository(db *gorm.DB) *DbTranscriptRepository {
 	}
 }
 
-func (repository *DbTranscriptRepository) Save(course *model.CourseTranscript) {
+func (repository *DbTranscriptRepository) ClearAll() {
 	repository.db.Delete(model.Cliptranscript{})
+}
+
+func (repository *DbTranscriptRepository) Save(course *model.CourseTranscript) {
 
 	for _, module := range course.Modules {
 		for _, clipTranscript := range module.ClipTranscripts {

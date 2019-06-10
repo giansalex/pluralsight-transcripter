@@ -23,6 +23,7 @@ func NewTranscriptService(courses repository.CourseRepository, transcripts repos
 func (service *DefaultTranscriptService) Transcript(lang string) error {
 	courses := service.courses.List()
 
+	service.transcripts.ClearAll()
 	for _, course := range courses {
 		fmt.Println("Transcript:", course.Title.String)
 		courseTranscript, err := service.api.GetByCourse(course.Name.String, lang)
