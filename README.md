@@ -14,4 +14,4 @@ Also, you cand download from [releases](https://github.com/giansalex/pluralsight
 ```
 transcripter.exe --lang es pluralsight.db
 ```
-This generate `pluralsight.es.db`, then you can replace in original database
+This generate `pluralsight.es.db` in current directory, then you can override original database
