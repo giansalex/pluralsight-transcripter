@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pluralsight-transcripter</id>
+    <version>1.0.0</version>
+    <owners>Giancarlos Salas</owners>
+    <title>Pluralsight Transcripter</title>
+    <authors>Giancarlos Salas</authors>
+    <projectUrl>https://github.com/giansalex/pluralsight-transcripter/</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/giansalex/pluralsight-transcripter/500eea4d2f34e5549493b7ab065751d2bdd852dc/main.ico</iconUrl>
+    <licenseUrl>https://github.com/giansalex/pluralsight-transcripter/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/giansalex/pluralsight-transcripter/</projectSourceUrl>
+    <packageSourceUrl>https://github.com/giansalex/pluralsight-transcripter/tree/master/chocolatey-package/</packageSourceUrl>
+    <bugTrackerUrl>https://github.com/giansalex/pluralsight-transcripter/issues</bugTrackerUrl>
+    <tags>pluralsight transcripter translater</tags>
+    <summary>Pluralsight Offline Video Transcripter</summary>
+    <description>Translate your offline videos to your preference language.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
