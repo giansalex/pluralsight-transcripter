@@ -12,6 +12,6 @@ Also, you cand download from [releases](https://github.com/giansalex/pluralsight
 > Required pluralsight sqlite path, you can search in `%appdata%\..\Local\Pluralsight` 
 
 ```
-transcripter.exe --lang es pluralsight.db
+transcripter --lang es pluralsight.db
 ```
 This generate `pluralsight.es.db` in current directory, then you can override original database
