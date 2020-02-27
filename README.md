@@ -1,6 +1,7 @@
-# Pluralsight Video Transcripter
-
+# Pluralsight Video Transcripter 
 Translate your offline videos to your preference language.
+
+![Pluralsight](https://rawcdn.githack.com/giansalex/pluralsight-transcripter/500eea4d2f34e5549493b7ab065751d2bdd852dc/main.ico)
 
 # Use
 Install from [chocolatey.org](https://chocolatey.org/packages/pluralsight-transcripter/).
