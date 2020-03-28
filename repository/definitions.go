@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/giansalex/pluralsight-transcript/model"
+import "github.com/giansalex/pluralsight-transcripter/model"
 
 type UserRepository interface {
 	GetUser() *model.User

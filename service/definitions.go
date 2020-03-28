@@ -1,6 +1,6 @@
 package service
 
-import "github.com/giansalex/pluralsight-transcript/model"
+import "github.com/giansalex/pluralsight-transcripter/model"
 
 // APIService represent pluralsight API
 type APIService interface {

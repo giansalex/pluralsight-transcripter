@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/giansalex/pluralsight-transcript/model"
+	"github.com/giansalex/pluralsight-transcripter/model"
 )
 
 func TestDeserializeJson(t *testing.T) {

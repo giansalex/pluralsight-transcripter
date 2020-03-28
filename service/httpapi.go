@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/giansalex/pluralsight-transcript/model"
+	"github.com/giansalex/pluralsight-transcripter/model"
 )
 
 const transcriptPath = "%s/library/coursetranscripts/%s/%s"

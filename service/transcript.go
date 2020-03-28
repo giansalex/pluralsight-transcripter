@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 
-	"github.com/giansalex/pluralsight-transcript/model"
-	"github.com/giansalex/pluralsight-transcript/repository"
+	"github.com/giansalex/pluralsight-transcripter/model"
+	"github.com/giansalex/pluralsight-transcripter/repository"
 )
 
 // DefaultTranscriptService implementation TranscriptService

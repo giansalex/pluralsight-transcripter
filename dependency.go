@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/giansalex/pluralsight-transcript/model"
-	"github.com/giansalex/pluralsight-transcript/repository"
-	"github.com/giansalex/pluralsight-transcript/service"
+	"github.com/giansalex/pluralsight-transcripter/model"
+	"github.com/giansalex/pluralsight-transcripter/repository"
+	"github.com/giansalex/pluralsight-transcripter/service"
 	"go.uber.org/dig"
 
 	"github.com/jinzhu/gorm"

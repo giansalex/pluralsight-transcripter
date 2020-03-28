@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/giansalex/pluralsight-transcript/model"
+	"github.com/giansalex/pluralsight-transcripter/model"
 	"github.com/jinzhu/gorm"
 )
 

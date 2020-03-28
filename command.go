@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/giansalex/pluralsight-transcript/service"
+	"github.com/giansalex/pluralsight-transcripter/service"
 	"github.com/urfave/cli"
 )
 

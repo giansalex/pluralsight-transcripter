@@ -3,7 +3,7 @@ package repository
 import (
 	"database/sql"
 
-	"github.com/giansalex/pluralsight-transcript/model"
+	"github.com/giansalex/pluralsight-transcripter/model"
 	"github.com/jinzhu/gorm"
 )
 

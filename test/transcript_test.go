@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/giansalex/pluralsight-transcript/model"
-	"github.com/giansalex/pluralsight-transcript/repository"
+	"github.com/giansalex/pluralsight-transcripter/model"
+	"github.com/giansalex/pluralsight-transcripter/repository"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
